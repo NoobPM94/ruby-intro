@@ -12,6 +12,31 @@
 # If the two lists contain the same item, only show it once!
 # Lastly, display each item in the list prepended with "buy ".
 
+sl1 = ["milk", "eggs","bacon","weed"]
+sl2 = ["beer","cookies","apples","weed"]
+
+sl3 = sl1 + sl2
+
+#puts sl3.inspect
+
+sl3 = sl3.sort
+
+#puts sl3.inspect
+
+sl3 = sl3.uniq
+
+puts sl3.inspect
+
+
+x=0
+if x=x
+    x = x+1
+    puts "buy #{sl3[x]}"
+end
+
+
+
+
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html

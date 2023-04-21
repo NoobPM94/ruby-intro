@@ -5,6 +5,7 @@
 
 # Arrays are lists of things
 
+
 # We can build an array out of different
 # types of things, or even combine types of things if we want.
 favorite_foods = ["tacos", "pizza", "ice cream"]
